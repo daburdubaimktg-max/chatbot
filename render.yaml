@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: vatika-hair-play
+    runtime: docker
+    plan: starter
+    numInstances: 1
+    healthCheckPath: /healthz
+    autoDeployTrigger: off
+    disk:
+      name: usage-ledger
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: DATA_DIR
+        value: /var/data/vatika
+      - key: GENERATION_ENABLED
+        value: "false"
+      - key: INITIAL_USED_SESSIONS
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false

@@ -1,0 +1,6 @@
+*
+!server/
+!server/**
+!public/
+!public/**
+!Dockerfile
