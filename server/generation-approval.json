@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "approvedAt": "2026-09-24T07:29:48.351Z",
+  "pilotId": "approved-single-trial-2026-09-18",
+  "model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1024",
+  "approvedBudgetUSD": 45,
+  "sessionsBeforeThisApproval": 14,
+  "maxSessions": 104,
+  "maxSessionsPerBrowser": 104
+}
